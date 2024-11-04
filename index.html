@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <script src="lab_3.js"></script>
+    <style>
+        .sections{text-align: center;}
+        .inputBox{width: 170px;}
+    </style>
+</head>
+<body>
+    <div class="sections">
+    <h2>Circle</h2>
+    <input type="number" class="inputBox" id="radiusInput" placeholder="Enter Radius of Circle">
+    <button onclick="circleAreaPeri()">Click to compute Perimeter and Area of Circle</button>
+    <p id="circleOut"></p>
+    <br>
+    </div>
+    <hr>
+    <div class="sections">
+    <h2>Rectangle</h2>
+    <input type="number" class="inputBox" id="lenInput" placeholder="Enter Length of Rectangle">
+    <input type="number" class="inputBox" id="widthInput" placeholder="Enter Width of Rectangle">
+    <button onclick="areaAndPeriOfRect()">Click to compute Area and Perimeter of Rectangle</button>
+    <p id="RectOut"></p>
+    <br>
+    </div>
+    <hr>
+    <div class="sections">
+    <h2>Cylinder</h2>
+    <input type="number" class="inputBox" id="radCylInput" placeholder="Enter Radius of Cylinder">
+    <input type="number" class="inputBox" id="heightCylInput" placeholder="Enter Height of Cylinder">
+    <button onclick="areaAndVolOfCylinder()">Click to compute Area and Volume of Cylinder</button>
+    <p id="CylOut"></p>
+    <br>
+    </div>
+    <hr>
+    <div class="sections">
+    <h2>Gratuity and Total</h2>
+    <input type="number" class="inputBox" id="subtotalInput" placeholder="Enter Subtotal Amount">
+    <input type="number" class="inputBox" id="gratRate" placeholder="Enter Gratuity Rate as No.">
+    <button onclick="subtotalAndGratuitity()">Click to compute Gratuity Amount and Total Amount to Pay</button>
+    <p id="gratAndTotalAmtOut"></p>
+    <br>
+    </div>
+    <hr>
+    <br>
+</body>
+</html>
